@@ -35,12 +35,12 @@ h1{
 button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #315a85;
+    background-color: #4c6580;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #153b63;
+    background-color: #c6e0fd;
 }
