@@ -1,30 +1,47 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: url('cat.png') no-repeat center center/cover;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f3f3f3;
+    background-image: url(https://github.com/10djbigot/M2IT103L/blob/main/Exercise6/cat.png?raw=true) ;
 }
 
 .container {
-    background: white;
+    background-color: azure;
+   
+    background-size: contain;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+h1{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    color: rgb(0, 0, 0);
+}
+
 button {
-    margin-top: 20px;
-    padding: 10px 15px;
-    border: none;
-    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4c6580;
     color: white;
-    font-size: 16px;
-    cursor: pointer;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #c6e0fd;
 }
